@@ -1,4 +1,4 @@
-input.onButtonPressed(Button.A, function () {
+input.onButtonPressed(Button.B, function () {
     repere += 1
 })
 serial.redirect(
