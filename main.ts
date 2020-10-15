@@ -30,5 +30,5 @@ basic.showLeds(`
 basic.forever(function () {
     entete = "" + input.runningTime() + ";" + pins.analogReadPin(AnalogPin.P1) + ";" + repere
     serial.writeLine(entete)
-    basic.pause(100)
+    basic.pause(200)
 })
