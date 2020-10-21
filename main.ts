@@ -29,5 +29,5 @@ basic.forever(function () {
     temps = input.runningTime() - init
     entete = "" + temps + ";" + pins.analogReadPin(AnalogPin.P1) + ";" + repere
     serial.writeLine(entete)
-    basic.pause(200)
+    basic.pause(1)
 })
